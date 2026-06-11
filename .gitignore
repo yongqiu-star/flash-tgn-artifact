@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Build outputs
+build/
+dist/
+*.so
+*.o
+*.ptx
+
+# Datasets and checkpoints
+data/
+models/
+checkpoints/
+logs/
+runs/
+results/
+
+# LaTeX intermediates
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+
+# Local editor and OS files
+.DS_Store
+.vscode/
+.idea/
